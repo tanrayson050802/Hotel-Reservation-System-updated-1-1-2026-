@@ -69,7 +69,7 @@ void loginUser()
                     }
                 }
             }
-
+        }
         infile.close();
 
         if (!found)
@@ -82,5 +82,4 @@ void loginUser()
     }
 
     cout << "Too many failed login attempts.\n";
-    }
 }
